@@ -1,3 +1,2 @@
 # Story
-
-This file should contain the description of your team's story to tell about a mentor's life @ Codecool.
+Our program demonstrates a codecooler's usual day. Various activities has different effects on the knowledge, energy and mood of the codecoolers.
