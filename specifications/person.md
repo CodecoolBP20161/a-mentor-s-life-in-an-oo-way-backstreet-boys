@@ -49,7 +49,7 @@ Increases the ```energy``` level by the object's ```delta``` attribute.
 
 
 #### Return value
-New ```energy``` value
+```delta``` value
 
 ### ```increase_mood```
 Increases the ```mood``` level by the object's ```delta``` attribute.
@@ -61,4 +61,4 @@ Increases the ```mood``` level by the object's ```delta``` attribute.
 
 
 #### Return value
-New ```mood``` value
+```delta``` value
