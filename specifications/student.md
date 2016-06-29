@@ -42,4 +42,4 @@ Increases the ```knowledge``` level by the object's ```delta``` attribute.
 
 
 #### Return value
-New ```knowledge``` value
+```delta``` value
