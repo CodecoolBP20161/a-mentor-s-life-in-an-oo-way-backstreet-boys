@@ -27,10 +27,7 @@ class Person:
         else:
             print("The mood of %s %s didn't change" % (self.first_name, self.last_name))
         return delta
-<<<<<<< HEAD
 
-person = Person("Miki", "Miklos", 1234, "male", 10, 10)
-person.increase_energy(20)
-person.increase_mood(20)
-=======
->>>>>>> b20a687e1610764f148717db2a692d139bfd7f56
+# person = Person("Miki", "Miklos", 1234, "male", 10, 10)
+# person.increase_energy(20)
+# person.increase_mood(20)
