@@ -1,5 +1,30 @@
 from person import Person
+import csv
+
+# mentor_csv = open('data/mentors.csv')
 
 
 class Mentor(Person):
-    pass
+    def __init__(self, nick_name, *args):
+        super().__init__(*args)
+        self.nick_name = nick_name
+
+    def create_by_csv(self):
+        with open('data/mentors.csv') as f:
+            read_file = csv.reader(f, delimiter='\t')
+            mk = []
+
+            for row in read_file:
+                data = row[0]
+
+                mk.append(data)
+            return mk
+
+
+
+
+
+mentor = Mentor("leves", "Dani", "Daniel", 1234, "male", 10, 10)
+mentor.increase_energy(20)
+mentor.increase_mood(20)
+print (mentor.create_by_csv())
