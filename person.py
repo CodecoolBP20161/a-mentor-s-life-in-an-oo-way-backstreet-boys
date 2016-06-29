@@ -12,20 +12,20 @@ class Person:
         self.energy += delta
         if delta > 0:
             print("The energy level of %s %s increased by %i" % (self.first_name, self.last_name, delta))
-        if delta < 0:
+        elif delta < 0:
             print("The energy level of %s %s decreased by %i" % (self.first_name, self.last_name, abs(delta)))
-        if delta == 0:
+        else:
             print("The energy level of %s %s didn't change" % (self.first_name, self.last_name))
         return delta
 
     def increase_mood(self, delta):
         self.mood += delta
         if delta > 0:
-            print("The mood of %s %s increased by %i" % (self.f_name, self.l_name, delta))
+            print("The mood of %s %s increased by %i" % (self.first_name, self.last_name, delta))
         elif delta < 0:
-            print("The mood of %s %s decreased by %i" % (self.f_name, self.l_name, abs(delta)))
+            print("The mood of %s %s decreased by %i" % (self.first_name, self.last_name, abs(delta)))
         else:
-            print("The mood of %s %s didn't change" % (self.f_name, self.l_name))
+            print("The mood of %s %s didn't change" % (self.first_name, self.last_name))
         return delta
 
 person = Person("Miki", "Miklos", 1234, "male", 10, 10)
