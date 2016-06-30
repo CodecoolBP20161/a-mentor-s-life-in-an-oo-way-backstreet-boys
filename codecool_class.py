@@ -3,9 +3,6 @@ from student import Student
 
 class CodecoolClass():
 
-    # mentor = Mentor("leves", "Dani", "Daniel", 1234, "male", 10, 10)
-    # student = Student("leves", "Laci", "Jocó", 1234, "male", 10, 10)
-
     def __init__(self, location, year, mentors, students):
         mentor = Mentor("leves", "Dani", "Daniel", 1234, "male", 10, 10)
         student = Student("leves", "Dani", "Daniel", 1234, "male", 10, 10)

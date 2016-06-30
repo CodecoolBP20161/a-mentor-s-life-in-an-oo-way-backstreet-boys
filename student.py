@@ -21,7 +21,6 @@ class Student(Person):
         with open('data/students.csv') as f:
             read_file = csv.reader(f, delimiter='\t')
             mk = []
-            # student_list = []
             i = 0
             for row in read_file:
                 data = row[0]

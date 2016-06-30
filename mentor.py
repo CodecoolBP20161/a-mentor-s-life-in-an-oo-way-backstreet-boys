@@ -14,7 +14,6 @@ class Mentor(Person):
         with open('data/mentors.csv') as f:
             read_file = csv.reader(f, delimiter='\t')
             mk = []
-            # mentor_list = []
             i = 0
             for row in read_file:
                 data = row[0]
