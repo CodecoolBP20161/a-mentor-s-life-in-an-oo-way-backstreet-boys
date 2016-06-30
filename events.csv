@@ -1,18 +1,18 @@
-the mentors give a briefing about the day, knowledge,10
-students begin the work with a coding dojo, knowledge,15
-goes out to drink a coffee, energyzer,15
-open facebook, timewaster,30
-starts to play minimal-techno, knowledge,-20
-do gymnastics, energyzer,20
-goes out to smoke a cigarette, timewaster,10
-tell a terrible joke, energyzer,-20
-read stack overflow, timewaster,-20
-do a commit, knowledge,15
-merging the conflict, knowledge,10
-lunch time, energyzer,30
-starts to play foosball, energyzer,15
-the afternoon shift is starting, energyzer,-10
-realise we are in late with the code, knowledge,-15
-give a detailed description to each other about how awfully the project is going, timewaster,30
-read stack overflow and save the day, knowledge,20
-wait for the end of the coding time, timewaster,15
+the mentors give a briefing about the day,knowledge,10
+students begin the work with a coding dojo,knowledge,15
+goes out to drink a coffee,energizer,15
+open facebook,timewaster,30
+starts to play minimal-techno,knowledge,-20
+do gymnastics,energizer,20
+goes out to smoke a cigarette,timewaster,10
+tell a terrible joke,energizer,-20
+read stack overflow,timewaster,-20
+do a commit,knowledge,15
+merging the conflict,knowledge,10
+lunch time,energizer,30
+starts to play foosball,energizer,15
+the afternoon shift is starting,energizer,-10
+realise we are in late with the code,knowledge,-15
+give a detailed description to each other about how awfully the project is going,timewaster,30
+read stack overflow and save the day,knowledge,20
+wait for the end of the coding time,timewaster,15

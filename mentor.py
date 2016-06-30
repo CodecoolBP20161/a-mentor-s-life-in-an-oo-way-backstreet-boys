@@ -22,16 +22,16 @@ class Mentor(Person):
                     int(mk[i][5]), int(mk[i][6]))
                 i += 1
                 mentor_list.append(mentor)
-        return mentor_list
+        # return mentor_list
 
 
 
 
 
-mentor = Mentor("leves", "Dani", "Daniel", 1234, "male", 10, 10)
-# mentor.increase_energy(20)
-# mentor.increase_mood(20)
-lista = mentor.create_by_csv()
-print (lista[0].energy)
-lista[0].increase_energy(-15)
-print (lista[0].energy)
+# mentor = Mentor("leves", "Dani", "Daniel", 1234, "male", 10, 10)
+# # mentor.increase_energy(20)
+# # mentor.increase_mood(20)
+# lista = mentor.create_by_csv()
+# print (lista[0].energy)
+# lista[0].increase_energy(-15)
+# print (lista[0].energy)

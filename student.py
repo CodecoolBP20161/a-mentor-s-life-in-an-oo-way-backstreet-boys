@@ -29,6 +29,6 @@ class Student(Person):
                     int(mk[i][5]), int(mk[i][6]))
                 i += 1
                 student_list.append(student)
-        return student_list
+        # return student_list
 
 student = Student("leves", "Laci", "Jocó", 1234, "male", 10, 10)
