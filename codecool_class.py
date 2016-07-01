@@ -7,9 +7,14 @@ class CodecoolClass():
         mentor = Mentor("leves", "Dani", "Daniel", 1234, "male", 10, 10)
         student = Student("leves", "Dani", "Daniel", 1234, "male", 10, 10)
         lista = mentor.create_by_csv()
-        m = lista[0].first_name + lista[0].last_name
+        m = []
+        for i in range(len(lista)):
+            m.append(lista[i].first_name + " " + lista[i].last_name)
+        # m = lista[0].first_name + " " + lista[0].last_name
         lista = student.create_by_csv()
-        s = lista[0].first_name + lista[0].last_name
+        s = []
+        for i in range(len(lista)):
+            s.append(lista[i].first_name + " " + lista[i].last_name)
         self.location = location
         self.year = year
         self.mentors = m

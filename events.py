@@ -4,6 +4,9 @@ import csv
 class Events():
     def __init__(self, name, event_type, delta):
         super().__init__()
+        # events = Events("fd", "fd", 3)
+        # lista = events.open_csv()
+        # m = lista[0].name
         self.name = name
         self.event_type = event_type
         self.delta = delta
@@ -12,12 +15,13 @@ class Events():
         self.energizer = []
 
     def open_csv(self):
+        self.events = []
         from mindsharpener import Mindsharpener
         from energizer import Energizer
         from timewaster import Timewaster
         with open('events.csv') as f:
             read_file = csv.reader(f, delimiter='\t')
-            events = []
+            # events = []
             # nevek = []
             j = 0
             for i in read_file:
@@ -34,3 +38,5 @@ class Events():
                     k = Timewaster(events[j][0], events[j][1], events[j][2])
                     self.timewaster.append(k)
                 j += 1
+
+        return self.events
